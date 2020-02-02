@@ -1,0 +1,9 @@
+# MPLABX Specific Ignore File Updates
+/OLED_PIC.X/build/
+/OLED_PIC.X/dist/
+/OLED_PIC.X/nbproject/
+
+# Simulation
+*.pdsbak
+*.workspace
+

@@ -1,0 +1,6 @@
+[submodule "OLED_PIC.X/I2C"]
+	path = OLED_PIC.X/I2C
+	url = https://github.com/xpress-embedo/I2C.git
+[submodule "OLED_PIC.X/OLED"]
+	path = OLED_PIC.X/OLED
+	url = https://github.com/xpress-embedo/OLED.git
