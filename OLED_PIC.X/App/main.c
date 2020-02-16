@@ -144,7 +144,7 @@ void timer0_init( void )
 }
 
 /**
- * PIC18F Interrupt Service Routine
+ * @brief PIC18F Interrupt Service Routine
  */
 void __interrupt() ISR_ROUTINE( void )
 {
@@ -157,6 +157,10 @@ void __interrupt() ISR_ROUTINE( void )
   }
 }
 
+/**
+ * @breif test_draw_lines
+ * Draw Test Lines
+ */
 void test_draw_lines( void )
 {
   uint8_t i;
@@ -172,6 +176,10 @@ void test_draw_lines( void )
   }
 }
 
+/**
+ * @breif test_draw_v_h_lines
+ * Draw Vertical and Horizontal Test Lines
+ */
 void test_draw_v_h_lines( void )
 {
   uint8_t i;
@@ -192,6 +200,10 @@ void test_draw_v_h_lines( void )
   }
 }
 
+/**
+ * @breif test_draw_rectangles
+ * Draw Rectangles
+ */
 void test_draw_rectangles( void )
 {
   uint8_t i;
@@ -210,6 +222,10 @@ void test_draw_rectangles( void )
   }
 }
 
+/**
+ * @breif test_draw_circles
+ * Draw Test Circles
+ */
 void test_draw_circles( void )
 {
   uint8_t i;
@@ -220,6 +236,10 @@ void test_draw_circles( void )
   }
 }
 
+/**
+ * @breif test_text_display
+ * Display Text Strings using Small and Tiny Fonts
+ */
 void test_text_display( void )
 {
   OLED_SetFont( SMALL_FONTS );
@@ -242,6 +262,10 @@ void test_text_display( void )
   OLED_Update();
 }
 
+/**
+ * @breif test_images
+ * Draw some test images
+ */
 void test_images( void )
 {
   OLED_Image(bank);
